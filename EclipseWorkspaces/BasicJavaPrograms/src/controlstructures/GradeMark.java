@@ -1,0 +1,21 @@
+package controlstructures;
+
+public class GradeMark {
+
+	public static void main(String[] args) {
+		int mark;
+		mark = 61;
+		
+		if(mark >=70) {
+			System.out.println("Distinction");
+		
+		}else if (mark <70 && mark >= 60) {
+			System.out.println("Merit");
+			
+		}else if  (mark <60&& mark >= 40) {
+			System.out.println("Pass");
+		}else
+			System.out.println("fail");
+	}
+
+}
